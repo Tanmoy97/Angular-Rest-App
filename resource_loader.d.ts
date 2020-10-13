@@ -6,12 +6,9 @@
  * found in the LICENSE file at https://angular.io/license
  */
 /**
- * @module
- * @description
- * Entry point for all public APIs of the common package.
+ * An interface for retrieving documents by URL that the compiler uses
+ * to load templates.
  */
-import { Version } from '@angular/core';
-/**
- * @stable
- */
-export declare const VERSION: Version;
+export declare class ResourceLoader {
+    get(url: string): Promise<string> | string;
+}

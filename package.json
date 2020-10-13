@@ -1,22 +1,22 @@
 {
   "_args": [
     [
-      "@angular/common@4.3.6",
+      "@angular/compiler@4.3.6",
       "C:\\Users\\TANMOY KHATUA\\angular-rest-app"
     ]
   ],
-  "_from": "@angular/common@4.3.6",
-  "_id": "@angular/common@4.3.6",
+  "_from": "@angular/compiler@4.3.6",
+  "_id": "@angular/compiler@4.3.6",
   "_inBundle": false,
-  "_integrity": "sha1-7TfpMHx1Bt2DR5fBps9nXlK1tu4=",
-  "_location": "/@angular/common",
+  "_integrity": "sha1-vhcN8Ji3HoNczt8WjV+3sj5QRbg=",
+  "_location": "/@angular/compiler",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@angular/common@4.3.6",
-    "name": "@angular/common",
-    "escapedName": "@angular%2fcommon",
+    "raw": "@angular/compiler@4.3.6",
+    "name": "@angular/compiler",
+    "escapedName": "@angular%2fcompiler",
     "scope": "@angular",
     "rawSpec": "4.3.6",
     "saveSpec": null,
@@ -25,7 +25,7 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@angular/common/-/common-4.3.6.tgz",
+  "_resolved": "https://registry.npmjs.org/@angular/compiler/-/compiler-4.3.6.tgz",
   "_spec": "4.3.6",
   "_where": "C:\\Users\\TANMOY KHATUA\\angular-rest-app",
   "author": {
@@ -37,13 +37,13 @@
   "dependencies": {
     "tslib": "^1.7.1"
   },
-  "description": "Angular - commonly needed directives and services",
-  "es2015": "./@angular/common.js",
+  "description": "Angular - the compiler library",
+  "es2015": "./@angular/compiler.js",
   "homepage": "https://github.com/angular/angular#readme",
   "license": "MIT",
-  "main": "./bundles/common.umd.js",
-  "module": "./@angular/common.es5.js",
-  "name": "@angular/common",
+  "main": "./bundles/compiler.umd.js",
+  "module": "./@angular/compiler.es5.js",
+  "name": "@angular/compiler",
   "peerDependencies": {
     "@angular/core": "4.3.6"
   },
@@ -51,6 +51,6 @@
     "type": "git",
     "url": "git+https://github.com/angular/angular.git"
   },
-  "typings": "./common.d.ts",
+  "typings": "./compiler.d.ts",
   "version": "4.3.6"
 }

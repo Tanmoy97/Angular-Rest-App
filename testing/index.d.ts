@@ -8,6 +8,6 @@
 /**
  * @module
  * @description
- * Entry point for all public APIs of the common package.
+ * Entry point for all public APIs of the core/testing package.
  */
-export * from './src/common';
+export * from './src/testing';

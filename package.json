@@ -1,61 +1,64 @@
 {
   "_args": [
     [
-      "@angular/material@2.0.0-beta.10",
+      "@schematics/angular@0.0.35",
       "C:\\Users\\TANMOY KHATUA\\angular-rest-app"
     ]
   ],
-  "_from": "@angular/material@2.0.0-beta.10",
-  "_id": "@angular/material@2.0.0-beta.10",
+  "_development": true,
+  "_from": "@schematics/angular@0.0.35",
+  "_id": "@schematics/angular@0.0.35",
   "_inBundle": false,
-  "_integrity": "sha512-KAQ2t9wenI55oXkjjT6E4VGUSVu7AZmR+ytnaP96VBFk18wxcGnVaTbQmCvVm/vkbcdeoSF09D6ic94DHAE+1A==",
-  "_location": "/@angular/material",
+  "_integrity": "sha512-Da/JvgO5Jc0Kugg0n1o6a7dcBWA5GW7hU91tpslRY0KznDsS/HhTNFg7gPQoaOec1eshbJ17/IBq9BwOOxZNeA==",
+  "_location": "/@schematics/angular",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@angular/material@2.0.0-beta.10",
-    "name": "@angular/material",
-    "escapedName": "@angular%2fmaterial",
-    "scope": "@angular",
-    "rawSpec": "2.0.0-beta.10",
+    "raw": "@schematics/angular@0.0.35",
+    "name": "@schematics/angular",
+    "escapedName": "@schematics%2fangular",
+    "scope": "@schematics",
+    "rawSpec": "0.0.35",
     "saveSpec": null,
-    "fetchSpec": "2.0.0-beta.10"
+    "fetchSpec": "0.0.35"
   },
   "_requiredBy": [
-    "/"
+    "/@angular/cli"
   ],
-  "_resolved": "https://registry.npmjs.org/@angular/material/-/material-2.0.0-beta.10.tgz",
-  "_spec": "2.0.0-beta.10",
+  "_resolved": "https://registry.npmjs.org/@schematics/angular/-/angular-0.0.35.tgz",
+  "_spec": "0.0.35",
   "_where": "C:\\Users\\TANMOY KHATUA\\angular-rest-app",
+  "author": {
+    "name": "Angular Authors"
+  },
   "bugs": {
-    "url": "https://github.com/angular/material2/issues"
+    "url": "https://github.com/angular/devkit/issues"
   },
-  "dependencies": {
-    "tslib": "^1.7.1"
+  "description": "Schematics specific to Angular",
+  "engines": {
+    "node": ">= 6.9.0",
+    "npm": ">= 3.0.0"
   },
-  "description": "Angular Material",
-  "es2015": "./@angular/material.js",
-  "homepage": "https://github.com/angular/material2#readme",
+  "homepage": "https://github.com/angular/devkit",
   "keywords": [
     "angular",
-    "material",
-    "material design",
-    "components"
+    "devkit",
+    "sdk",
+    "Angular DevKit",
+    "blueprints",
+    "code generation",
+    "schematics"
   ],
   "license": "MIT",
-  "main": "./bundles/material.umd.js",
-  "module": "./@angular/material.es5.js",
-  "name": "@angular/material",
+  "name": "@schematics/angular",
   "peerDependencies": {
-    "@angular/cdk": "2.0.0-beta.10",
-    "@angular/core": "^4.3.0",
-    "@angular/common": "^4.3.0"
+    "@angular-devkit/schematics": "0.0.23"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angular/material2.git"
+    "url": "git+https://github.com/angular/devkit.git"
   },
-  "typings": "./material.d.ts",
-  "version": "2.0.0-beta.10"
+  "schematics": "./collection.json",
+  "version": "0.0.35"
 }

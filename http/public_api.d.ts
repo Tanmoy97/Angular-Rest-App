@@ -5,9 +5,14 @@
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-/**
- * @module
- * @description
- * Entry point for all public APIs of the http package.
- */
-export * from './src/index';
+export { HttpBackend, HttpHandler } from './src/backend';
+export { HttpClient } from './src/client';
+export { HttpHeaders } from './src/headers';
+export { HTTP_INTERCEPTORS, HttpInterceptor } from './src/interceptor';
+export { JsonpClientBackend, JsonpInterceptor } from './src/jsonp';
+export { HttpClientJsonpModule, HttpClientModule, HttpClientXsrfModule, interceptingHandler as ɵinterceptingHandler } from './src/module';
+export { HttpParameterCodec, HttpParams, HttpUrlEncodingCodec } from './src/params';
+export { HttpRequest } from './src/request';
+export { HttpDownloadProgressEvent, HttpErrorResponse, HttpEvent, HttpEventType, HttpHeaderResponse, HttpProgressEvent, HttpResponse, HttpResponseBase, HttpSentEvent, HttpUserEvent } from './src/response';
+export { HttpXhrBackend, XhrFactory } from './src/xhr';
+export { HttpXsrfTokenExtractor } from './src/xsrf';
